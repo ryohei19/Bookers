@@ -2,3 +2,6 @@
 <p><%= @book.title %></p>
 <h2>Body</h2>
 <p><%= @book.body %></p>
+
+<p><%= link_to "edit", "/books/#{@book.id}/edit" %></p>
+<p><a href="/books">back</a></p>
